@@ -8,13 +8,13 @@
   <body>
 	<h1>Coded flesh</h1>
 	<p>In today's world, we rely on digital technology for almost everything - from communication and entertainment to work and education. But have you ever stopped to think about what that actually means? The digital world is made up entirely of ones and zeros, and yet we entrust it with our most important data and personal information.
-        <br>
+        <br> <br>
         The truth is, our reliance on digital technology is only going to continue to grow in the coming years. From the internet of things to artificial intelligence, we're seeing a rapid expansion of digital technologies that are transforming the way we live and work. But as we become more and more dependent on these systems, it's important to remember that they're not infallible.
-        <br>
+        <br> <br>
         As we continue to navigate the digital landscape, it's essential that we take the time to understand how it works and the risks involved. Only by being informed and proactive can we truly take control of our digital lives and ensure that the digital world remains a safe and reliable place for everyone.</p>
 	<input type="file" id="imageInput" class="modify-btn">
 	<div id="imageContainer"></div>
-    <div class="gap"></div>
+    <br>
 
 	<script>
 		// Image modification function
@@ -45,7 +45,7 @@
 
 				// Delete random parts of the image data
 				for (let i = 0; i < length; i++) {
-					if (Math.random() < 0.1) {
+					if (Math.random() < 0.3) {
 						data[i] = 0;
 					}
 				}
